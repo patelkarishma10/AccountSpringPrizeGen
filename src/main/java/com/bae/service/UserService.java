@@ -4,6 +4,6 @@ import org.springframework.http.ResponseEntity;
 
 public interface UserService {
 
-	ResponseEntity<String> getPrize();
+	ResponseEntity<String> getPrize(String accNum);
 
 }
